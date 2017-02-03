@@ -1,8 +1,11 @@
 # simplehttp
 To be able to run http requests
 
--1 mvn install
--2 java -jar target/simplehttp-1.0.jar <host> <Authorization header>
+Checkout project and run below to get you started.
+```
+mvn install
+java -jar target/simplehttp-1.0.jar <host> <Authorization header>
+```
 
 Enable logging with 
 -Dorg.apache.commons.logging.Log=org.apache.commons.logging.impl.SimpleLog
