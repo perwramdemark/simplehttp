@@ -7,7 +7,7 @@ mvn install
 java -jar target/simplehttp-1.0.jar <host> <Authorization header>
 ```
 
-Enable logging add the following JVM parameters
+### Enable logging add the following JVM parameters
 -Dorg.apache.commons.logging.Log=org.apache.commons.logging.impl.SimpleLog
 
 -Dorg.apache.commons.logging.simplelog.showdatetime=true
